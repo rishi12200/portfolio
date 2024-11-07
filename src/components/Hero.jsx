@@ -6,7 +6,7 @@ function Hero() {
       className="flex flex-col justify-center items-center h-screen bg-gradient-to-r from-blue-500 to-green-600 text-white"
     >
       <h2 className="text-4xl md:text-6xl font-bold mb-4">
-        Hello, I'm Rishikesh M
+        Hello, I'm Rishi
       </h2>
       <p className="text-lg  md:text-2xl mb-8">
         A passionate Front-End Developer specializing in React.
