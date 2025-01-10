@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "Junior Front-End Developer",
       company: "SpiritmineTech",
-      duration: "August 2023 – September 2024",
+      duration: "August 2023 – Present",
       responsibilities: [
         "Developed and maintained reusable components in React for high performance and scalability.",
         "Collaborated with backend developers to integrate RESTful APIs.",
