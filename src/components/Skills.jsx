@@ -11,6 +11,9 @@ const Skills = () => {
     "CSS3",
     "MongoDB",
     "MySQL",
+    "Core JAVA",
+    "Next.js",
+    "GitHub",
   ];
 
   return (

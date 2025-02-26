@@ -1,16 +1,27 @@
 function Projects() {
   const projects = [
     {
+      title: "Payroll Management system",
+      description:
+        " A modern admin dashboard UI for payroll management, designed to help HR teams efficiently track employee records, manage payroll reports, and visualize financial data.",
+      code: "https://github.com/rishi12200/Payroll-Management-System",
+    },
+    {
       title: "Quiz Application",
-      description: "A responsive quiz app built in React.",
+      description:
+        "MCQ-based assessment application designed to seamlessly schedule and conduct online tests.",
       demo: "https://quiz-app-umber-iota.vercel.app/",
       code: "https://github.com/rishi12200/quiz-app",
     },
     {
       title: "EduTrack",
-      description: "A student and staff management system.",
-
-      code: "https://github.com/rishi12200/eduTrack",
+      description:
+        "EduTrack is a responsive student and staff management system built with React. The application offers an intuitive interface for administrators to manage records efficiently, allowing for Create, Read, Update, and Delete (CRUD) operations on student and staff information.",
+    },
+    {
+      title: "Project Manager Application",
+      description:
+        "A project management application enabling teams to collaborate, track tasks, and manage projects efficiently with a responsive, user-friendly interface.",
     },
   ];
 
@@ -23,10 +34,14 @@ function Projects() {
             <div key={index} className="bg-white p-6 rounded-lg drop-shadow-lg">
               <h4 className="text-xl font-bold mb-2">{project.title}</h4>
               <p className="text-gray-600 mb-4">{project.description}</p>
-
-              <a href={project.code} className="text-blue-500 hover:underline">
-                Code
-              </a>
+              {projects.code ? (
+                <a
+                  href={project.code}
+                  className="text-blue-500 hover:underline"
+                >
+                  Code
+                </a>
+              ) : null}
             </div>
           ))}
         </div>
